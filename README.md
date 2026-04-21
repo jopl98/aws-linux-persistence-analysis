@@ -10,6 +10,7 @@ This lab demonstrates persistence analysis techniques on an AWS EC2 instance.
 - Checked system service status (crond)
 
 ## Commands Used
+Bash
 crontab -l  
 sudo ls -la /etc/cron*  
 sudo systemctl status crond  
